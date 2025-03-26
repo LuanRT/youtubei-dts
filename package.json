@@ -1,0 +1,30 @@
+{
+  "name": "youtubei-dts",
+  "version": "1.0.0",
+  "description": "TypeScript type definitions for InnerTube (YouTube Internal API)",
+  "author": "LuanRT <luan.lrt4@gmail.com> (https://github.com/LuanRT)",
+  "main": "",
+  "types": "./src/index.d.ts",
+  "funding": [
+    "https://github.com/sponsors/LuanRT"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/LuanRT/youtubei-dts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuanRT/youtubei-dts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuanRT/youtubei-dts/issues"
+  },
+  "keywords": [
+    "definitions",
+    "typescript",
+    "types",
+    "typings",
+    "InnerTube",
+    "youtubei",
+    "YouTube.js",
+    "youtube-js"
+  ]
+}

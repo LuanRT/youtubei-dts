@@ -1,0 +1,37 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore test files
+test/
+tests/
+*.spec.js
+*.test.js
+
+# Ignore configuration files
+*.config.js
+*.config.ts
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore documentation files
+docs/
+*.md
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
