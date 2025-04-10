@@ -188688,8 +188688,21 @@ declare namespace youtubei {
     responsiveContainerConfiguration?: IYoutubeApiInnertubeResponsiveContainerConfiguration;
   };
 
+  type IYoutubeApiInnertubeOnFocusColor = {
+    darkTheme?: number;
+    lightTheme?: number;
+  };
+
+  type IYoutubeApiInnertubeFocusEffect = {
+    onFocusColor?: IYoutubeApiInnertubeOnFocusColor;
+    onFocusStyle?:
+      | 'ON_FOCUS_STYLE_UNSPECIFIED'
+      | 'ON_FOCUS_STYLE_BACKGROUND'
+  };
+
   type IYoutubeApiInnertubeRichItemRenderer = {
     content?: IYoutubeApiInnertubeRenderer;
+    onFocusEffect?: IYoutubeApiInnertubeFocusEffect;
     trackingParams?: string;
   };
 
